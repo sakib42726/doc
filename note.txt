@@ -1,0 +1,21 @@
+1. .next/: This folder is auto-generated during the build process and contains the compiled output of your Next.js application. It includes the server-side code, static assets, and client-side JavaScript bundles.
+
+2. node_modules/: This directory contains all the Node.js modules (dependencies) installed for the project. You don't need to worry about this folder as npm handles the installation of dependencies.
+
+3. public/: This folder is used for storing publicly accessible assets like images, fonts, and other static files. Files placed here can be directly accessed from the browser.
+
+4. src/: This is the main source code folder for your Next.js application.
+
+  . components/: This folder houses reusable React components      that can be used across different pages of your      application.
+
+  . pages/: Next.js automatically generates routes based on     the files present in this folder. Each file inside pages/     corresponds to a specific URL route in your application.
+
+  . styles/: You can place global styles (CSS, SCSS) and         component-specific styles in this folder.
+
+  . utils/: This folder is meant for storing utility      functions or helper modules that can be used throughout      your application.
+
+5. .babelrc: This is the Babel configuration file. Babel is used to transpile modern JavaScript/JSX code to a version supported by various browsers.
+
+6. next.config.js: This file allows you to customize the Next.js build process and configure various settings for your application.
+
+7. package.json and package-lock.json: These files contain information about your project's dependencies, version numbers, and scripts. package-lock.json is automatically generated and ensures that the exact versions of the dependencies are installed.
